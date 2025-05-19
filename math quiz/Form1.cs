@@ -128,7 +128,7 @@ namespace math_quiz
                     // display the new time left by updating the 
                     // Time Left label.
                     timeLeft = timeLeft - 1;
-                    timeleft1.Text = timeLeft + " seconds";
+                    timelabel.Text = timeLeft + " seconds";
                 }
                 else
                 {

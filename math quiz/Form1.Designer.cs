@@ -32,7 +32,7 @@ namespace math_quiz
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
+            this.timelabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.plusleftlabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -62,15 +62,15 @@ namespace math_quiz
             ((System.ComponentModel.ISupportInitialize)(this.iloraz)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // timelabel
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(272, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.timelabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.timelabel.Location = new System.Drawing.Point(272, 9);
+            this.timelabel.Name = "timelabel";
+            this.timelabel.Size = new System.Drawing.Size(200, 30);
+            this.timelabel.TabIndex = 0;
+            this.timelabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -322,7 +322,7 @@ namespace math_quiz
             this.Controls.Add(this.label3);
             this.Controls.Add(this.plusleftlabel);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.timelabel);
             this.Name = "Form1";
             this.Text = "quiz";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -337,7 +337,7 @@ namespace math_quiz
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label timelabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label plusleftlabel;
         private System.Windows.Forms.Label label3;
